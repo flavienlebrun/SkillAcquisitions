@@ -94,6 +94,7 @@ public class XRCalibration : MonoBehaviour
             cube.GetComponent<Renderer>().enabled = true;
 
             transform.position = XRControllerVisual.position;
+            Debug.Log(XRControllerVisual.position);
             transform.localRotation = Quaternion.Euler(0f, XRControllerVisual.rotation.eulerAngles.y, 0f);
             cube.transform.position = transform.position;
             cube.transform.localRotation = transform.localRotation;
