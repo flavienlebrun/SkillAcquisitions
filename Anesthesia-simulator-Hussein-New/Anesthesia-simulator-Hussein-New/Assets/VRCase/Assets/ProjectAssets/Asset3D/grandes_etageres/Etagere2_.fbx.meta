@@ -1,0 +1,142 @@
+fileFormatVersion: 2
+guid: 47e06644250a11244a85d22487cbde19
+timeCreated: 1491914651
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Etagere_Base
+    100004: Etagere_Facade2
+    100006: Etagere_Facade3
+    100008: Etagere_Facade4
+    100010: Etagere_Niveau6
+    100012: Etagere_Patte
+    100014: Etagere_Sac10
+    100016: Etagere_Sac11
+    100018: Etagere_Sac9
+    100020: Etagere_Sonde2
+    100022: Etagere_Vetement11
+    100024: Etagere_Vetement15
+    100026: Etagere_Vitrine
+    400000: //RootNode
+    400002: Etagere_Base
+    400004: Etagere_Facade2
+    400006: Etagere_Facade3
+    400008: Etagere_Facade4
+    400010: Etagere_Niveau6
+    400012: Etagere_Patte
+    400014: Etagere_Sac10
+    400016: Etagere_Sac11
+    400018: Etagere_Sac9
+    400020: Etagere_Sonde2
+    400022: Etagere_Vetement11
+    400024: Etagere_Vetement15
+    400026: Etagere_Vitrine
+    2300000: Etagere_Base
+    2300002: Etagere_Facade2
+    2300004: Etagere_Facade3
+    2300006: Etagere_Facade4
+    2300008: Etagere_Niveau6
+    2300010: Etagere_Patte
+    2300012: Etagere_Sac10
+    2300014: Etagere_Sac11
+    2300016: Etagere_Sac9
+    2300018: Etagere_Sonde2
+    2300020: Etagere_Vetement11
+    2300022: Etagere_Vetement15
+    2300024: Etagere_Vitrine
+    3300000: Etagere_Base
+    3300002: Etagere_Facade2
+    3300004: Etagere_Facade3
+    3300006: Etagere_Facade4
+    3300008: Etagere_Niveau6
+    3300010: Etagere_Patte
+    3300012: Etagere_Sac10
+    3300014: Etagere_Sac11
+    3300016: Etagere_Sac9
+    3300018: Etagere_Sonde2
+    3300020: Etagere_Vetement11
+    3300022: Etagere_Vetement15
+    3300024: Etagere_Vitrine
+    4300000: Etagere_Base
+    4300002: Etagere_Patte
+    4300004: Etagere_Vitrine
+    4300006: Etagere_Sac9
+    4300008: Etagere_Vetement11
+    4300010: Etagere_Sonde2
+    4300012: Etagere_Facade2
+    4300014: Etagere_Niveau6
+    4300016: Etagere_Sac10
+    4300018: Etagere_Sac11
+    4300020: Etagere_Vetement15
+    4300022: Etagere_Facade3
+    4300024: Etagere_Facade4
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

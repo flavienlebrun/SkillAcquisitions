@@ -1,0 +1,162 @@
+fileFormatVersion: 2
+guid: fe3e0fdbd58a80546a165ddd7936d49e
+timeCreated: 1491914651
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Etagere_Base
+    100004: Etagere_Facade5
+    100006: Etagere_Facade6
+    100008: Etagere_Facade7
+    100010: Etagere_File
+    100012: Etagere_File2
+    100014: Etagere_Medicament10
+    100016: Etagere_Medicament11
+    100018: Etagere_Niveau7
+    100020: Etagere_Patte
+    100022: Etagere_Sac12
+    100024: Etagere_Sac14
+    100026: Etagere_Sac15
+    100028: Etagere_Sonde3
+    100030: Etagere_Vetement16
+    100032: Etagere_Vetement17
+    100034: Etagere_Vitrine
+    400000: //RootNode
+    400002: Etagere_Base
+    400004: Etagere_Facade5
+    400006: Etagere_Facade6
+    400008: Etagere_Facade7
+    400010: Etagere_File
+    400012: Etagere_File2
+    400014: Etagere_Medicament10
+    400016: Etagere_Medicament11
+    400018: Etagere_Niveau7
+    400020: Etagere_Patte
+    400022: Etagere_Sac12
+    400024: Etagere_Sac14
+    400026: Etagere_Sac15
+    400028: Etagere_Sonde3
+    400030: Etagere_Vetement16
+    400032: Etagere_Vetement17
+    400034: Etagere_Vitrine
+    2300000: Etagere_Base
+    2300002: Etagere_Facade5
+    2300004: Etagere_Facade6
+    2300006: Etagere_Facade7
+    2300008: Etagere_File
+    2300010: Etagere_File2
+    2300012: Etagere_Medicament10
+    2300014: Etagere_Medicament11
+    2300016: Etagere_Niveau7
+    2300018: Etagere_Patte
+    2300020: Etagere_Sac12
+    2300022: Etagere_Sac14
+    2300024: Etagere_Sac15
+    2300026: Etagere_Sonde3
+    2300028: Etagere_Vetement16
+    2300030: Etagere_Vetement17
+    2300032: Etagere_Vitrine
+    3300000: Etagere_Base
+    3300002: Etagere_Facade5
+    3300004: Etagere_Facade6
+    3300006: Etagere_Facade7
+    3300008: Etagere_File
+    3300010: Etagere_File2
+    3300012: Etagere_Medicament10
+    3300014: Etagere_Medicament11
+    3300016: Etagere_Niveau7
+    3300018: Etagere_Patte
+    3300020: Etagere_Sac12
+    3300022: Etagere_Sac14
+    3300024: Etagere_Sac15
+    3300026: Etagere_Sonde3
+    3300028: Etagere_Vetement16
+    3300030: Etagere_Vetement17
+    3300032: Etagere_Vitrine
+    4300000: Etagere_Base
+    4300002: Etagere_Patte
+    4300004: Etagere_Vitrine
+    4300006: Etagere_Facade5
+    4300008: Etagere_Niveau7
+    4300010: Etagere_Sonde3
+    4300012: Etagere_Sac12
+    4300014: Etagere_Sac14
+    4300016: Etagere_Sac15
+    4300018: Etagere_Vetement16
+    4300020: Etagere_Vetement17
+    4300022: Etagere_File
+    4300024: Etagere_Facade6
+    4300026: Etagere_Facade7
+    4300028: Etagere_File2
+    4300030: Etagere_Medicament10
+    4300032: Etagere_Medicament11
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

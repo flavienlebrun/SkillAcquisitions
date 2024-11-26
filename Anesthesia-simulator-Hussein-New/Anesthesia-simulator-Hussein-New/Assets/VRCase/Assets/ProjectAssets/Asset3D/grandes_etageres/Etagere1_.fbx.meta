@@ -1,0 +1,177 @@
+fileFormatVersion: 2
+guid: 19fcd2960f4de9f40977e24d93a65a60
+timeCreated: 1491914815
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Etagere_Base
+    100004: Etagere_Facade
+    100006: Etagere_Facade1
+    100008: Etagere_Livre
+    100010: Etagere_Livre1
+    100012: Etagere_Livre10
+    100014: Etagere_Livre13
+    100016: Etagere_Livre16
+    100018: Etagere_Livre17
+    100020: Etagere_Livre2
+    100022: Etagere_Livre3
+    100024: Etagere_Livre4
+    100026: Etagere_Livre8
+    100028: Etagere_Livre9
+    100030: Etagere_Medicament8
+    100032: Etagere_Medicament9
+    100034: Etagere_Niveau1
+    100036: Etagere_Niveau2
+    100038: Etagere_Patte
+    100040: Etagere_Vitrine
+    400000: //RootNode
+    400002: Etagere_Base
+    400004: Etagere_Facade
+    400006: Etagere_Facade1
+    400008: Etagere_Livre
+    400010: Etagere_Livre1
+    400012: Etagere_Livre10
+    400014: Etagere_Livre13
+    400016: Etagere_Livre16
+    400018: Etagere_Livre17
+    400020: Etagere_Livre2
+    400022: Etagere_Livre3
+    400024: Etagere_Livre4
+    400026: Etagere_Livre8
+    400028: Etagere_Livre9
+    400030: Etagere_Medicament8
+    400032: Etagere_Medicament9
+    400034: Etagere_Niveau1
+    400036: Etagere_Niveau2
+    400038: Etagere_Patte
+    400040: Etagere_Vitrine
+    2300000: Etagere_Base
+    2300002: Etagere_Facade
+    2300004: Etagere_Facade1
+    2300006: Etagere_Livre
+    2300008: Etagere_Livre1
+    2300010: Etagere_Livre10
+    2300012: Etagere_Livre13
+    2300014: Etagere_Livre16
+    2300016: Etagere_Livre17
+    2300018: Etagere_Livre2
+    2300020: Etagere_Livre3
+    2300022: Etagere_Livre4
+    2300024: Etagere_Livre8
+    2300026: Etagere_Livre9
+    2300028: Etagere_Medicament8
+    2300030: Etagere_Medicament9
+    2300032: Etagere_Niveau1
+    2300034: Etagere_Niveau2
+    2300036: Etagere_Patte
+    2300038: Etagere_Vitrine
+    3300000: Etagere_Base
+    3300002: Etagere_Facade
+    3300004: Etagere_Facade1
+    3300006: Etagere_Livre
+    3300008: Etagere_Livre1
+    3300010: Etagere_Livre10
+    3300012: Etagere_Livre13
+    3300014: Etagere_Livre16
+    3300016: Etagere_Livre17
+    3300018: Etagere_Livre2
+    3300020: Etagere_Livre3
+    3300022: Etagere_Livre4
+    3300024: Etagere_Livre8
+    3300026: Etagere_Livre9
+    3300028: Etagere_Medicament8
+    3300030: Etagere_Medicament9
+    3300032: Etagere_Niveau1
+    3300034: Etagere_Niveau2
+    3300036: Etagere_Patte
+    3300038: Etagere_Vitrine
+    4300000: Etagere_Base
+    4300002: Etagere_Patte
+    4300004: Etagere_Vitrine
+    4300006: Etagere_Livre
+    4300008: Etagere_Livre1
+    4300010: Etagere_Livre2
+    4300012: Etagere_Livre3
+    4300014: Etagere_Livre4
+    4300016: Etagere_Livre8
+    4300018: Etagere_Niveau1
+    4300020: Etagere_Niveau2
+    4300022: Etagere_Facade
+    4300024: Etagere_Livre9
+    4300026: Etagere_Livre10
+    4300028: Etagere_Livre13
+    4300030: Etagere_Facade1
+    4300032: Etagere_Livre16
+    4300034: Etagere_Livre17
+    4300036: Etagere_Medicament8
+    4300038: Etagere_Medicament9
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

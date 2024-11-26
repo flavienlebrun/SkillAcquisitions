@@ -1,0 +1,118 @@
+fileFormatVersion: 2
+guid: 8c7a78bd8c96814429ea34eaf2783187
+timeCreated: 1490713631
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: ChampsSterile
+    100002: LunetteO2
+    100004: oreiller
+    100006: papierSterile
+    100008: PapierSterilePatient
+    100010: PapierSterilepatientColider
+    100012: //RootNode
+    100014: Peau
+    100016: PlasticTableScope
+    400000: ChampsSterile
+    400002: LunetteO2
+    400004: oreiller
+    400006: papierSterile
+    400008: PapierSterilePatient
+    400010: PapierSterilepatientColider
+    400012: //RootNode
+    400014: Peau
+    400016: PlasticTableScope
+    2300000: ChampsSterile
+    2300002: LunetteO2
+    2300004: oreiller
+    2300006: papierSterile
+    2300008: PapierSterilePatient
+    2300010: PapierSterilepatientColider
+    2300012: PlasticTableScope
+    3300000: ChampsSterile
+    3300002: LunetteO2
+    3300004: oreiller
+    3300006: papierSterile
+    3300008: PapierSterilePatient
+    3300010: PapierSterilepatientColider
+    3300012: PlasticTableScope
+    4300000: PlasticTableScope
+    4300002: papierSterile
+    4300004: oreiller
+    4300006: PapierSterilePatient
+    4300008: ChampsSterile
+    4300010: Peau
+    4300012: PapierSterilepatientColider
+    4300014: LunetteO2
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Peau
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
