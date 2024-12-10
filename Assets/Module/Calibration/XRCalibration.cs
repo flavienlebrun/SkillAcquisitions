@@ -1,6 +1,9 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+//Module de calibration d'une scène en fonction de la position du controlleur. Lorsque les deux boutons sont pressé, 
+//Un cube est rendu visible et la position de la scène est mise à jour en fonction de la position et de l'orientation du controlleur.
+//Intruction de mise en place 
 [RequireComponent(typeof(MeshRenderer))]
 public class XRCalibration : MonoBehaviour
 {
