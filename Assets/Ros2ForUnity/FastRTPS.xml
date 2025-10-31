@@ -1,0 +1,18 @@
+<dds>
+  <profiles>
+    <participant profile_name="UnityLAN" is_default_profile="true">
+      <rtps>
+        <name>UnityParticipant</name>
+        <default_unicast_locator>
+          <locator>
+            <udpv4>
+              <address>10.10.1.103</address> <!-- Your Windows LAN IP -->
+              <port>7400</port>
+            </udpv4>
+          </locator>
+        </default_unicast_locator>
+        <allow_multicast>true</allow_multicast>
+      </rtps>
+    </participant>
+  </profiles>
+</dds>
