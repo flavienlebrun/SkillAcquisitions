@@ -14,6 +14,8 @@
 
 using System;
 using UnityEngine;
+using ROS2;
+
 
 namespace ROS2
 {
@@ -22,7 +24,7 @@ namespace ROS2
 /// A class for listening omega position
 /// </summary>
 public class ListenerPosition : MonoBehaviour
-{
+{ 
     private ROS2UnityComponent ros2Unity;
     private ROS2Node ros2Node;
     private ISubscription<geometry_msgs.msg.Point> point_sub;
@@ -35,11 +37,7 @@ public class ListenerPosition : MonoBehaviour
 
     void Update()
     {    
-        // Récupère la position (x, y, z) du GameObject
-        Vector3 position = transform.position;
-        // Affiche la position dans la console
-
-        Debug.Log($"Position : X={position.x}, Y={position.y}, Z={position.z}");
+  
         if (ros2Node == null && ros2Unity.Ok())
         {
             ros2Node = ros2Unity.CreateNode("ROS2UnityListenerNode");
@@ -48,7 +46,8 @@ public class ListenerPosition : MonoBehaviour
                     msg => UpdatePosition(msg));
         }
     }
-    // Méthode pour mettre à jour la position du GameObject
+
+    // // Méthode pour mettre à jour la position du GameObject
     private void UpdatePosition(geometry_msgs.msg.Point msg)
     {
         // Applique le facteur d'échelle si nécessaire
@@ -56,11 +55,23 @@ public class ListenerPosition : MonoBehaviour
         float y = (float)msg.Y * scaleFactor;
         float z = (float)msg.Z * scaleFactor;
 
-        // Met à jour la position du GameObject
-        transform.position = new Vector3(x, y, z);
+  
 
         // Log pour vérifier les valeurs
         Debug.Log($"Position mise à jour : X={x}, Y={y}, Z={z}");
+
+    }
+
+
+    // Nettoyage quand le script est désactivé
+    void OnDisable()
+    {
+        if (ros2Node != null)
+        {
+            ros2Unity.RemoveNode(ros2Node);
+            Debug.Log("Node removed");
+            ros2Node = null; // Optionnel : pour éviter les références pendantes
+        }
     }
 }
 
