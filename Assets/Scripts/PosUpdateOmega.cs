@@ -7,7 +7,7 @@ public class SimplePointListenerWithThread : MonoBehaviour
     // --- Paramètres publics ---
     [Header("ROS2 Topic")]
     public string positionTopic = "robot_position";  // Topic pour recevoir la position
-
+    public string NodeName = "SimplePointListenerNode";
     // --- Variables privées ---
     private ROS2UnityComponent ros2Unity;
     private ROS2Node ros2Node;
@@ -30,7 +30,7 @@ public class SimplePointListenerWithThread : MonoBehaviour
         // Crée le nœud ROS2 et s'abonne au topic "robot_position"
         if (ros2Unity.Ok())
         {
-            ros2Node = ros2Unity.CreateNode("SimplePointListenerNode");
+            ros2Node = ros2Unity.CreateNode(NodeName);
             point_sub = ros2Node.CreateSubscription<geometry_msgs.msg.Point>(
                 positionTopic,
                 PointCallback

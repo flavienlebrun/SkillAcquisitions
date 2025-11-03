@@ -31,3 +31,6 @@ export ROS\_LOCALHOST\_ONLY=0
 j'ai pu enfin faire bouger ma sphère en fonction des mouvements du robot. Pour ça il est nécessaire d'avoir un thread qui traite la recup du msg ros (c'est un abonnement au topic robot\_position). et un autre thread qui va gérer la publication de cette position dans le main de unity. C'est fait avec deux fonction  Poincallback et processingloop. Ensuite on peut utiliser la position dans fixed update pour gérer la position. Je me suis inspiré du script d'Ali Admittance\_link. 
 ###################
 
+02/11
+Ajout d'un deuxième Omega. Un ID est attribué à chaque Omega en fonction du port USB à priori. Cette ID peut être utilisé comme un int ensuite pour effectuer chaque fonction sur l'appareil souhaité. L'omega7 s'initialise pareil que le 3 mais il faut ensuite actionner les 3 éléments de l'organe terminal jusqu'en butté des deux côtés pour finir et arrêter le clignotement. Il faut vérifier aussi dans unity qu'on donne des noms de nœuds différents pour chaque récupération de position de robot. 
+
