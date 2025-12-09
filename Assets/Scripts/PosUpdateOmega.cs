@@ -57,7 +57,7 @@ public class SimplePointListenerWithThread : MonoBehaviour
             (float)msg.Z
         );
         // Transformation repère ROS -> Unity
-        Vector3 transform_position = new Vector3(position.y,position.z,-position.x);
+        Vector3 transform_position = new Vector3(position.y*1.5f,position.z*1.5f,-position.x*1.5f);
         // stock les positions dans la variable globale
         global_pos = transform_position;
         // Met à jour la position thread-safe
@@ -67,7 +67,7 @@ public class SimplePointListenerWithThread : MonoBehaviour
         }
 
         // Affiche la position reçue (optionnel)
-        Debug.Log($"Position reçue: X={position.x}, Y={position.y}, Z={position.z}");
+        // Debug.Log($"Position reçue: X={position.x}, Y={position.y}, Z={position.z}");
     }
 
     // --- Boucle de traitement dans un autre thread ---
@@ -83,13 +83,13 @@ public class SimplePointListenerWithThread : MonoBehaviour
             }
 
             // --- Traite les données ici (exemple : affichage dans la console) ---
-            Debug.Log($"[Thread] Position actuelle: X={currentPosition.x}, Y={currentPosition.y}, Z={currentPosition.z}");
+            // Debug.Log($"[Thread] Position actuelle: X={currentPosition.x}, Y={currentPosition.y}, Z={currentPosition.z}");
                   // Met à jour la position du GameObject
 
             // --- Simule un traitement personnalisé (exemple : calculs) ---
             // Exemple : Calculer la distance par rapport à l'origine
             float distanceFromOrigin = currentPosition.magnitude;
-            Debug.Log($"[Thread] Distance depuis l'origine: {distanceFromOrigin}");
+            // Debug.Log($"[Thread] Distance depuis l'origine: {distanceFromOrigin}");
         }
     }
     void FixedUpdate()
